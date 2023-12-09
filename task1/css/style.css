@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+}
+
+
+.navigation li
+{
+    list-style: none;
+}
+
+.navigation a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation
+{
+    width: 100%;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #008000;
+}
+
+.navigation img{
+    width: 145px;
+}
+
+.navigation ul
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home img
+{
+    width: 400px;
+}
+
+.home
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.right
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 39px;
+}
+.right h2
+{
+    font-family: 'Cormorant SC', serif;
+    margin-bottom: 15px;
+}
+
+.right h1
+{
+    margin-bottom: 15px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.btn
+{
+    width: 84px;
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #008000;
+    font-size: 17px;
+}
+
+.btn:hover
+{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.box
+{
+    width: 100%;
+    height: 64px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    background-color: #008000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.products
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33px;
+    flex-wrap: wrap;
+}
+
+.box-main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 2px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.up
+{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 1444px;
+    margin-bottom: 15px;
+}
+
+.one
+{
+    background: url('/images/food.jpg') no-repeat center center/cover;
+}
+
+.two
+{
+    background: url('/images/spices.jpg') no-repeat center center/cover;
+}
+
+.three
+{
+    background: url('/images/furniture.jpg') no-repeat center center/cover;
+}
+
+.four
+{
+    background: url('/images/baby.jpg') no-repeat center center/cover;
+}
+.products button a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.btn-prod
+{
+    width: 109px;
+    height: 43px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+}
+
+.btn-prod:hover
+{
+    background-color: bisque;   
+}
+
+.about
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.about-left
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-right
+{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+}
+
+.about img
+{
+    width: 370px;
+}
+
+.about-right p
+{
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    color: white;
+}
+
+
+
+.last
+{
+    height: 90px;
+    margin-top: 49px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: green;
+}
+
+.last img
+{
+    width: 44px;
+}
+
+.last-last
+{
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    background-color: green;
+}
+
+.last-last a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
